@@ -11,8 +11,8 @@ const HeroSection = () => {
     <section className='lg:py-16'>
         <div className='grid grid-cols-1 sm:grid-cols-12'>
             <div className='col-span-8 place-self-center text-center sm:text-left justify-self-start'>
-                <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold">
-                    <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500'>Hello, I&apros;m {""}</span>
+                <h1 className="text-white mb-4 text-4xl sm:text-5xl md:text-5xl lg:text-7xl lg:leading-normal font-extrabold">
+                    <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500'>Hello, I&apos;m {""}</span>
                     <br></br>
                     <TypeAnimation
                     sequence={[
@@ -29,9 +29,9 @@ const HeroSection = () => {
                     />
                 </h1>
                 <p className='text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-6'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ipsum sequi 
-                    nostrum placeat accusamus dolorem minus perferendis magni, eum fugit itaque suscipit
-                    labore corrupti consequuntur rerum, cum reiciendis voluptatibus sunt?
+                    I&apos;m a recent software developer graduate, with an interest in Front-End development, animations and aesthetics. 
+                    When I&apos;m not coding, I spend my time weight lifting, travelling (my goal is to visit as many countries, in all 7 continents, as possible), or trying to find 
+                    new and interesting food places to check out.
                 </p>
                 <div>
                     <Link href={"/"}>

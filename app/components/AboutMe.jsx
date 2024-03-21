@@ -19,6 +19,8 @@ const AboutMe = () => {
             <li>NodeJS</li>
             <li>Express</li>
             <li>MySQL</li>
+            <li>CSS/SASS</li>
+            <li>Tailwind CSS</li>
         </ul>
     },
     {
@@ -36,7 +38,6 @@ const AboutMe = () => {
         content: 
         <ul className='list-disc pl-3'>
             <li>...</li>
-            <li>...</li>
         </ul>
     }
   ]
@@ -48,7 +49,7 @@ const AboutMe = () => {
   }
   return (
     <section className='text-white'>
-        <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
+        <div className='md:grid md:grid-cols-2 gap-8 items-center py-9 px-4 xl:gap-18 sm:py-16 xl:px-16'>
             <Image src={"/images/about-image.png"} width={500} height={500} alt='about-image'/>
             <div className='mt-4 md:0 text-left flex flex-col h-full'>
                 <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
