@@ -7,6 +7,15 @@ import EmailSection from './EmailSection';
 
 
 const HeroSection = () => {
+
+const scrollToEmailSection = () => {
+    const emailSection = document.getElementById('emailSection');
+    if (emailSection) {
+        emailSection.scrollIntoView({ behavior: 'smooth' });
+    }
+};
+
+
   return (
     <section className='lg:py-16'>
         <div className='grid grid-cols-1 sm:grid-cols-12'>
@@ -35,7 +44,12 @@ const HeroSection = () => {
                 </p>
                 <div>
                     <Link href={"/"}>
-                    <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white'>Hire Me</button>
+                    <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white'
+                        onClick={scrollToEmailSection}
+                        
+                    >Hire Me
+                        
+                    </button>
                     </Link>
                     <Link href="/resume.pdf" download="resume">
                         <button className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 text-white mt-3'>

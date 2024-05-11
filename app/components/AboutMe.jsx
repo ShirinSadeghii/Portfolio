@@ -15,6 +15,7 @@ const AboutMe = () => {
         <ul className='list-disc pl-3'>
             <li>Javascript</li>
             <li>React</li>
+            <li>React Native</li>
             <li>NextJS</li>
             <li>NodeJS</li>
             <li>Express</li>
@@ -29,7 +30,8 @@ const AboutMe = () => {
         content: 
         <ul className='list-disc pl-3'>
             <li>Web Development Diploma, BrainStation</li>
-            <li>Associates Degree in Criminology, Douglas College</li>
+            <li>Web Development Certificate, BrainStation</li>
+            <li>Associates Degree, Criminology, Douglas College</li>
         </ul>
     },
     {
@@ -48,7 +50,7 @@ const AboutMe = () => {
     })
   }
   return (
-    <section className='text-white'>
+    <section id='about' className='text-white'>
         <div className='md:grid md:grid-cols-2 gap-8 items-center py-9 px-4 xl:gap-18 sm:py-16 xl:px-16'>
             <Image src={"/images/about-image.png"} width={500} height={500} alt='about-image'/>
             <div className='mt-4 md:0 text-left flex flex-col h-full'>
